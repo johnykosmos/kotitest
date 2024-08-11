@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dialogue-window{
+   background-color: black;
+    opacity: 0.5; 
+    height: 23vh;
+    width: 100vh;
+    border: 2vh solid #E76480;
+    border-radius: 10vh;
+    overflow: hidden; 
+    visibility: hidden;
+}
+
+.dialogue-content{
+    opacity: 1;
+    width: 100%;
+    padding: 2vh 5vh;
+    color: white;
+    white-space: pre-wrap;
+    font-size: 2em;
+}
+
