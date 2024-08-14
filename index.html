@@ -10,11 +10,17 @@
 <body>
     <div style="display: flex; 
               justify-content: center; align-items: center;">
-        <img src="./sprites/koti/crying-koti.gif" id="koti" style="cursor: pointer">
+        <img src="./img/characters/crying-koti.gif" id="startCharacter" style="cursor: pointer">
     </div>
-    <div class="dialogue-window" id="dialogue-window">
-        <p class="dialogue-content" id="dialogue-content"></p>
+    <div class="dialogue-screen" id="dialogue-screen">
+        <p class="dialogue-title" id="dialogue-title"></p>
+        <img src="./img/characters/crying-koti.gif" id="character">
+        <div class="dialogue-window" id="dialogue-window">
+            <p class="dialogue-content" id="dialogue-content"></p>
+        </div>
+        <div class="next-dialogue-info" id="next-dialogue-info"> Press ENTER for next dialogue </div>
+        <div class="choice-buttons" id="choice-buttons"> </div>
     </div>
-    <script type="module" src="./src/koti.js"></script>
+    <script type="module" src="./src/homepage.js"></script>
 </body>
 </html>

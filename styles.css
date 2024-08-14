@@ -10,15 +10,51 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
+button{
+    height: 12vh;
+    width: 30vh;
+    font-size: 2em;
+    color: #E76480;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1vh solid #E76480;
+    border-radius: 4vh;
+    cursor: pointer;
+}
+
+.dialogue-screen{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+
+}
+
 .dialogue-window{
-   background-color: black;
+    background-color: black;
     opacity: 0.5; 
     height: 23vh;
     width: 100vh;
     border: 2vh solid #E76480;
     border-radius: 10vh;
     overflow: hidden; 
-    visibility: hidden;
+}
+
+.dialogue-title{
+    position: absolute;
+    top: 0;  
+    padding: 15vh 0 0 75vh;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
 }
 
 .dialogue-content{
@@ -28,5 +64,31 @@ body{
     color: white;
     white-space: pre-wrap;
     font-size: 2em;
+}
+
+.next-dialogue-info{
+    padding: 2vh 0 0 40vh;
+    color: #E76480;
+    font-size: 2em;
+    visibility: hidden;
+    animation: opacity-transition 2s infinite ease-in-out;
+}
+
+.choice-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding-top: 90vh;
+    gap: 2vh;
+}
+
+button:hover{
+    background-color:rgba(115, 115, 115, 0.7);
+}
+
+@keyframes opacity-transition{
+    0%, 100% {opacity: 0;}
+    50% {opacity: 1;}
 }
 
