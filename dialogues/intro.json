@@ -1,0 +1,79 @@
+[
+    {
+        "text": "meow meow meow meow meowmeow meow meow meow meomeow meow meow meow meomeow meow meow meow meomeow meow meow meow meomeowmeow meow meow meomeomeow meow meow meomeoww meow meow meow meowwwww",
+        "img": "crying-koti",
+        "id": "???",
+        "buttons": null
+    },
+    {
+        "text": "...",
+        "img": "confused-koti",
+        "id": "???",
+        "buttons": null
+    },
+    {
+        "text": "Meeeeeow! Jestem Kotnelia, ale znajomi mówią mi koti! Ty musisz być Kornelia! Piotr BARDZO dużo nam o tobie mówił! Pewnie jesteś tu z powodu zniknięcia swojego prezentu... Niestety...",
+        "img": "proud-koti",
+        "id": "koti",
+        "buttons": null
+    },
+    {
+        "text": "nie spodziewaliśmy się ciebie tu tak szybko. Właśnie pokłóciłam się z chłopakiem i gdzieś stąd uciekł! Bardzo chciałabym ci pomóc, ale do tego potrzeba dwóch cyberkotów...",
+        "img": "sad-talk",
+        "id": "koti",
+        "buttons": null
+    },
+    {
+        "text": "Chyba, że pomożesz mi go odnaleźć!",
+        "img": "delighted-koti",
+        "id": "koti",
+        "buttons": null
+    },
+    {
+        "text": "Przejdziemy się po tych wszystkich pokojach, które miały być defacto częścią twojego prezentu i go poszukamy! Tak, dokładnie tak zrobimy! A gdy go już znajdziemy wyjaśnimy sobie pare spraw...",
+        "img": "proud-koti",
+        "id": "koti",
+        "buttons": null
+    },
+    {
+        "text": "OCZYWIŚCIE ODNOŚNIE TWOJEGO PREZENTU ;)",
+        "img": "wink-koti",
+        "id": "koti",
+        "buttons": null
+    },
+    {
+        "text": "To co wchodzisz w to? PROSZE PROSZE PROSZE :3",
+        "img": "please-please-pleasekoti",
+        "id": "koti",
+        "buttons": [
+            {
+                "content": "Tak",
+                "action": "introYesButton"
+            },
+            {
+                "content": "Nie",
+                "action": "introNoButton"
+            }
+        ]
+    },
+    {
+        "text": "Wiedziałam, że nie odmówisz! Czeka nas wspaniała przygoda, tak, dokładnie! My dwie przeciwko całemu światu Ginny... W takim razie gdzie chciałabyś pójść najpierw?",
+        "img": "proud-koti",
+        "id": "koti",
+        "buttons": [
+            {
+                "content": "Kort tenisowy",
+                "action": null
+            },
+            {
+                "content": "Kreator wymarzonego chłopaka",
+                "action": null
+            },
+            {
+                "content": "OTCHŁAŃ",
+                "action": null
+            }
+        ]
+    }
+]
+

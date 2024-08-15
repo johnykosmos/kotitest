@@ -39,8 +39,7 @@ button{
 }
 
 .dialogue-window{
-    background-color: black;
-    opacity: 0.5; 
+    background-color: rgba(0, 0, 0, 0.5);
     height: 23vh;
     width: 100vh;
     border: 2vh solid #E76480;

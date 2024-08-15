@@ -1,14 +1,19 @@
-import {startDialogue} from "./dialogueLogic.js"
+import {currentDialogue, startCharacter, startCharDialogue, setCurrentDialogue} from "./dialogueLogic.js"
 
-const introDialogues = 
-[
-    { text: "meow meow meow meow meowmeow meow meow meow meomeow meow meow meow meomeow meow meow meow meomeow meow meow meow meomeowmeow meow meow meomeomeow meow meow meomeoww meow meow meow meowwwww", img: "crying-koti", id: "???", buttons: null },
-    { text: "...", img: "crying-koti", id: "???", buttons: null },
-    { text: "meeeeeooooooooow", img: "sad-talk", id: "koti", buttons: [{content: "meow", action: () => alert("POLSKA")}, {content: "meow!", action: () => alert("meow!")}] }
-];
 
-function main(){
-    startDialogue(introDialogues);
+async function main(){
+    localStorage.clear();
+    if(localStorage.getItem("akt")){
+        switch(localStorage.getItem("akt")){
+            case '0':
+                startCharacter.src = "./img/characters/missyou-koti.gif"; 
+                break;
+        }
+    }
+    else 
+        await setCurrentDialogue("intro");
+
+    startCharDialogue(currentDialogue);
 }
 
 main();
