@@ -71,7 +71,7 @@
             },
             {
                 "content": "OTCHŁAŃ",
-                "action": null
+                "action": "beforeAbyss" 
             }
         ]
     }

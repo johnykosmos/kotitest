@@ -1,0 +1,29 @@
+[
+    {
+        "text": "Meowmeow meeow meoow :( Mam nadzieję, że wszystko z nim w porządku... Bardzo tęsknię..",
+        "img": "missyou-koti",
+        "id": "koti",
+        "buttons": null     
+    },
+
+    {
+        "text": "Tak czy inaczej, gdzie idziemy?",
+        "img": "sad-talk",
+        "id": "koti",
+        "buttons": [
+            {
+                "content": "Kort tenisowy",
+                "action": null
+            },
+            {
+                "content": "Kreator wymarzonego chłopaka",
+                "action": null
+            },
+            {
+                "content": "OTCHŁAŃ",
+                "action": "beforeAbyss" 
+            }
+        ]
+    }
+]
+

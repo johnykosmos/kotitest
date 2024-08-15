@@ -2,11 +2,11 @@ import {currentDialogue, startCharacter, startCharDialogue, setCurrentDialogue} 
 
 
 async function main(){
-    localStorage.clear();
     if(localStorage.getItem("akt")){
         switch(localStorage.getItem("akt")){
             case '0':
                 startCharacter.src = "./img/characters/missyou-koti.gif"; 
+                await setCurrentDialogue("act0home");
                 break;
         }
     }

@@ -6,7 +6,7 @@ const dialogueTitle = document.getElementById("dialogue-title");
 const dialogueContent = document.getElementById("dialogue-content");
 const enterInfo = document.getElementById("next-dialogue-info");
 const choiceButtons = document.getElementById("choice-buttons");
-export const startCharacter = document.getElementById("startCharacter");
+export let startCharacter = document.getElementById("startCharacter");
 
 
 export let dialogueIndex = 0;
@@ -15,6 +15,14 @@ let isChoice = false;
 let currentPhoto; 
 export let currentDialogue;
 
+
+export function setStartCharacter(newStartCharacter){
+    startCharacter = document.getElementById(`${newStartCharacter}`);
+}
+
+export function setDialogueIndex(index){
+    dialogueIndex = index;
+}
 
 export async function setCurrentDialogue(filename){
     const response = await fetch(`../dialogues/${filename}.json`);
@@ -79,7 +87,8 @@ export function showNextDialogue(dialogues){
                 const newButton = document.createElement("button");
                 newButton.textContent = button.content;
                 newButton.addEventListener("click", () => {
-                    actionHandler[button.action].call(newButton);
+                    if(!isTyping)
+                        actionHandler[button.action].call(newButton); 
                 });
                 choiceButtons.appendChild(newButton);
             });
