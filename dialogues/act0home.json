@@ -2,8 +2,7 @@
     {
         "text": "Meowmeow meeow meoow :( Mam nadzieję, że wszystko z nim w porządku... Bardzo tęsknię..",
         "img": "missyou-koti",
-        "id": "koti",
-        "buttons": null     
+        "id": "koti"
     },
 
     {
@@ -13,11 +12,11 @@
         "buttons": [
             {
                 "content": "Kort tenisowy",
-                "action": null
+                "action": "goToTennis"
             },
             {
                 "content": "Kreator wymarzonego chłopaka",
-                "action": null
+                "action": "goToCreator" 
             },
             {
                 "content": "OTCHŁAŃ",

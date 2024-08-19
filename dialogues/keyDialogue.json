@@ -1,0 +1,47 @@
+[
+    {
+        "text": "Martwie sie o niego wiesz?",
+        "img": "sad-talk",
+        "id": "koti"
+    },
+
+    {
+        "text": "Już pomijając fakt, że ja go po prostu kocham, on jest kluczem do odnalezienia twojego prezentu, boo...",
+        "img": "sad-talk",
+        "id": "koti"
+    },
+    {
+        "text": "...",
+        "img": "shy-koti",
+        "id": "koti"
+    },
+    {
+        "text": "ja nie wiem jak go odnaleźć.",
+        "img": "shy-koti",
+        "id": "koti"
+    },
+    {
+        "text": " Jestem cyberkotem-przewodnikiem i miałam cie jedynie oprowadzić po atrakcjach tego miejsca. Wiem tylko, że kody jak ten, który ostatnio znalazłaś są potrzebne. A nimi miał się zajmować mój chłopak...",
+        "img": "sad-talk",
+        "id": "koti"
+    },
+    {
+        "text": "Dlatego spróbujmy go odnaleźć, z pewnością gdzieś tu jest!",
+        "img": "proud-koti",
+        "id": "koti",
+        "buttons": [
+            {
+                "content": "Kort tenisowy",
+                "action": "goToTennis" 
+            },
+            {
+                "content": "Kreator wymarzonego chłopaka",
+                "action": "goToCreator" 
+            },
+            {
+                "content": "OTCHŁAŃ",
+                "action": "beforeAbyss" 
+            }
+        ]
+    }
+]

@@ -11,6 +11,18 @@ body{
     flex-direction: column;
 }
 
+input{
+    height: 12vh;
+    width: 30vh;
+    padding: 2vh;
+    font-size: 2em;
+    color: #E76480;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1vh solid #E76480;
+    border-radius: 4vh;
+    text-align:center;
+}
+
 button{
     height: 12vh;
     width: 30vh;

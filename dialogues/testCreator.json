@@ -1,0 +1,125 @@
+[
+     {
+        "text": "Okej! W takim razie zacznijmy.",
+        "img": "psycholog-koti",
+        "id": "koti"
+     },
+    {
+        "text": "Pierwsze pytanie brzmi: wolisz młodszych czy starszych?",
+        "img": "question-psycholog",
+        "id": "koti",
+        "buttons": [ {"content": "Młodszych", "action": "showNext"},
+                {"content": "Starszych(???)", "action": "changeTextQuestion?"}
+        ]
+     },
+    {
+        "text": "Okej, w takim razie wybierz jedno z jego zainteresowań.",
+        "img": "question-psycholog",
+        "id": "koti",
+        "buttons": [ {"content": "Informatyka", "action": "showNext"},
+                {"content": "Filozofia", "action": "showNext"},
+            {"content": "Muzyka", "action": "showNext"},
+            {"content": "Sport", "action": "showNext"}
+        ]
+
+     },
+    {
+        "text": "Jaki powinien mieć znak zodiaku?",
+        "img": "question-psycholog",
+        "id": "koti",
+        "buttons": [ {"content": "Wodnik", "action": "deleteButton"},
+                {"content": "Strzelec", "action": "showNext"},
+            {"content": "Cwel", "action": "deleteButton"},
+            {"content": "Skorpion", "action": "deleteButton"}
+        ]
+     },
+    {
+        "text": "To ciekawy wybór, zupełnie tak jakbyś nie miała innej opcji...",
+        "img": "rozkminka-koti",
+        "id": "koti"
+     },
+    {
+        "text": "Więc może powiedz mi na jakiej uczelni powinien studiować!",
+        "img": "question-psycholog",
+        "id": "koti",
+        "buttons": [ {"content": "Harvard", "action": null},
+                {"content": "AGH", "action": "rickRoll"},
+            {"content": "Stanford", "action": null},
+            {"content": "Politechnika Świętokrzyska 8)", "action": "showNext"}
+        ]
+     },
+    {
+        "text": "A jakieś zainteresowanie zagraniczną kulturą?",
+        "img": "question-psycholog",
+        "id": "koti",
+        "buttons": [ {"content": "napewno nie hiszpańską, bo to banda ćpunów", "action": "refreshTest"},
+                {"content": "hiszpańska", "action": "showNext"},
+            {"content": "to przerażające ale muzułmańską", "action": "showNext"},
+            {"content": "japońską :3 kawaii", "action": "showNext"}
+        ]
+     },
+    {
+        "text": "Szczerze mówiąc cokolwiek byś nie wybrała to wyjdzie niezły psychol.",
+        "img": "sad-talk",
+        "id": "koti"
+     },
+    {
+        "text": "Ulubiony artysta?",
+        "img": "question-psycholog",
+        "id": "koti"
+     },
+    {
+        "text": "hę?",
+        "img": "confused-koti",
+        "id": "koti"
+     },
+    {
+        "text": "Dlaczego jedyną opcją do wyboru według mojej karty odpowiedzi jest.. rusina? Kto to w ogóle jest?",
+        "img": "idontknow-koti",
+        "id": "koti"
+     },
+{
+        "text": "Ostatnie pytanie brzmi: Jakie imię powinien nosić TWÓJ WYMARZONY CHŁOPAK?",
+        "img": "delighted-koti",
+        "id": "koti",
+        "input": "onlyPiotrek"     
+     },
+    {
+        "text": "Dobrze, już wklepuje wszystko w komputer i już za sekundkę dowiemy się jak wygląda twój książe z bajki!",
+        "img": "delighted-koti",
+        "id": "koti"
+     },
+    {
+        "text": "słyszysz intensywne dźwięki uderzania kocich łapek o klawisze",
+        "img": "typing-koti",
+        "id": "koti"
+     },
+    {
+        "text": "...",
+        "img": "confused-koti2",
+        "id": "koti"
+     },
+    {
+        "text": "szczerze mówiąc nie tego się spodziewałam, zobacz sama",
+        "img": "confused-koti2",
+        "id": "koti"
+     },
+    {
+        "text": "patrzysz w ekran komputera, na którym widnieje napis wyglądający na warty zapamiętania: LEGOKOLEGO, następnie patrzysz na zdjęcie",
+        "img": "",
+        "id": ""
+     },
+    {
+        "text": "widzisz bardzo dziwnie wyglądającego pana, tak wyglądać ma twoja wymarzona druga połówka wyliczona matematycznie",
+        "img": "bardzodziwnypan",
+        "id": "TWÓJ WYMARZONY CHŁOPAK"
+     },
+    {
+        "text": "Lepiej się już zbierajmy...",
+        "img": "sad-talk",
+        "id": "koti",
+        "buttons": [ {"content": "Wróć", "action": "goBackHomespaceCreator"}
+        ]
+     }
+     
+]

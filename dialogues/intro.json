@@ -2,44 +2,37 @@
     {
         "text": "meow meow meow meow meowmeow meow meow meow meomeow meow meow meow meomeow meow meow meow meomeow meow meow meow meomeowmeow meow meow meomeomeow meow meow meomeoww meow meow meow meowwwww",
         "img": "crying-koti",
-        "id": "???",
-        "buttons": null
+        "id": "???"
     },
     {
         "text": "...",
         "img": "confused-koti",
-        "id": "???",
-        "buttons": null
+        "id": "???"
     },
     {
         "text": "Meeeeeow! Jestem Kotnelia, ale znajomi mówią mi koti! Ty musisz być Kornelia! Piotr BARDZO dużo nam o tobie mówił! Pewnie jesteś tu z powodu zniknięcia swojego prezentu... Niestety...",
         "img": "proud-koti",
-        "id": "koti",
-        "buttons": null
+        "id": "koti"
     },
     {
         "text": "nie spodziewaliśmy się ciebie tu tak szybko. Właśnie pokłóciłam się z chłopakiem i gdzieś stąd uciekł! Bardzo chciałabym ci pomóc, ale do tego potrzeba dwóch cyberkotów...",
         "img": "sad-talk",
-        "id": "koti",
-        "buttons": null
+        "id": "koti"
     },
     {
         "text": "Chyba, że pomożesz mi go odnaleźć!",
         "img": "delighted-koti",
-        "id": "koti",
-        "buttons": null
+        "id": "koti"
     },
     {
         "text": "Przejdziemy się po tych wszystkich pokojach, które miały być defacto częścią twojego prezentu i go poszukamy! Tak, dokładnie tak zrobimy! A gdy go już znajdziemy wyjaśnimy sobie pare spraw...",
         "img": "proud-koti",
-        "id": "koti",
-        "buttons": null
+        "id": "koti"
     },
     {
         "text": "OCZYWIŚCIE ODNOŚNIE TWOJEGO PREZENTU ;)",
         "img": "wink-koti",
-        "id": "koti",
-        "buttons": null
+        "id": "koti"
     },
     {
         "text": "To co wchodzisz w to? PROSZE PROSZE PROSZE :3",
@@ -63,15 +56,15 @@
         "buttons": [
             {
                 "content": "Kort tenisowy",
-                "action": null
+                "action": "goToTennis"
             },
             {
                 "content": "Kreator wymarzonego chłopaka",
-                "action": null
+                "action": "goToCreator"
             },
             {
                 "content": "OTCHŁAŃ",
-                "action": "beforeAbyss" 
+                "action": "beforeAbyss"
             }
         ]
     }

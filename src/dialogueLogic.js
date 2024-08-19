@@ -28,6 +28,7 @@ export async function setCurrentDialogue(filename){
     const response = await fetch(`../dialogues/${filename}.json`);
     const data = await response.json();
     currentDialogue = data;
+    dialogueIndex = 0;
 }
 
 function displayDialogue(text, index = 0){
@@ -44,13 +45,16 @@ function displayDialogue(text, index = 0){
     }
 }
 
-export function startCharDialogue(dialogues){
+export function startCharDialogue(dialogues = null){
     const startCharacterDialogue = () => {
         startCharacter.removeEventListener("click", startCharacterDialogue);
         startCharacter.style.cursor = "default";
         dialogue.style.visibility = "visible";
         document.addEventListener("keydown", event => dialogueEvent(event, dialogues));
-        showNextDialogue(dialogues);
+        if(dialogues)
+            showNextDialogue(dialogues);
+        else
+            showNextDialogue(currentDialogue);
     };
     startCharacter.addEventListener("click", startCharacterDialogue);
 }
@@ -59,7 +63,7 @@ export function endDialogue(dialogues){
     dialogueIndex = 0;
     startCharacter.style.cursor = "pointer";
     dialogue.style.visibility = "hidden";
-    document.removeEventListener("keydown", event => dialogueEvent(event, dialogues));
+    document.removeEventListener("keydown", dialogueEvent);
     startCharDialogue(dialogues);
 }
 
@@ -94,7 +98,18 @@ export function showNextDialogue(dialogues){
             });
             isChoice = true;
         }
+        else if(dialogue.input){
+                const newInput = document.createElement("input");
+                newInput.type = "text";
+                newInput.autocomplete = "off";
+                newInput.addEventListener("keydown", (event) => {
+                    if(!isTyping && event.key === "Enter")
+                        actionHandler[dialogue.input].call(newInput); 
+                });
+                choiceButtons.appendChild(newInput);
 
+            isChoice = true;
+        }
         dialogueIndex++;
     }
     else{
@@ -105,7 +120,10 @@ export function showNextDialogue(dialogues){
 function dialogueEvent(event, dialogues){
     if(dialogue.style.visibility === "visible" && !isTyping && !isChoice &&
         event.key === "Enter"){
-            showNextDialogue(dialogues);
+            if(dialogues)
+                showNextDialogue(dialogues);
+            else
+                showNextDialogue(currentDialogue);
             enterInfo.style.visibility = "hidden";
     }
 }

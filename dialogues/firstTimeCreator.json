@@ -1,0 +1,75 @@
+[
+    {
+        "text": "widzisz przed sobą dziwną maszynę przypominającą komputer",
+        "img": "",
+        "id": ""
+    },
+
+    {
+        "text": "masz wrażenie, że to wina żenującego budżetu na tę produkcję",
+        "img": "",
+        "id": ""
+     },
+     {
+        "text": "czujesz jakby za nią skrywało się coś przerażającego, więc tam zaglądasz",
+        "img": "",
+        "id": ""
+     },
+
+    {
+        "text": "no hejo!!",
+        "img": "peek-koti",
+        "id": "koti"
+     },
+    {
+        "text": "Przepraszam jeśli cie przestraszyłam, ale musiałam odpowiednio skalibrować tę maszynkę zanim przystąpimy do testu",
+        "img": "sad-talk",
+        "id": "koti"
+     },
+    {
+        "text": "Nigdzie też nie widziałam mojego chłopaka...",
+        "img": "sad-talk",
+        "id": "koti"
+     },
+    {
+        "text": "Dlatego pomyślałam, chlip, że może ukrył się gdzieś w środku maszyny, ale w sumie tam też go nie było!! chlip, wtedy pomyślałam, że w sumie spoko byłoby zrobić ten test, może jak zobaczy jak dobrze się razem bawimy to wróci z zazdrości!",
+        "img": "missyou-koti",
+        "id": "koti"
+     },
+     {
+        "text": "A właśnie, nie powiedziałam ci nawet co to jest za test..",
+        "img": "sad-talk",
+        "id": "koti"
+     },
+    {
+        "text": "W skrócie chodzi o stworzenie na podstawie niepozornego testu obrazu twojego WYMARZONEGO CHŁOPAKA!",
+        "img": "delighted-koti",
+        "id": "koti"
+     },
+     {
+        "text": "Ty odpowiadasz na pytania, a ja wprowadzam odpowiedzi do tej maszyny. Ona przetwarza je skomplikowanym algorytmem i finalnie generuje obraz reprezentujący twoją miłość życia.",
+        "img": "sad-talk",
+        "id": "koti"
+     },
+    {
+        "text": "Niektóre pytania mogą być dziwne albo niekomfortowe, dlatego nie przejmuj się i odpowiedz na nie szczerze.",
+        "img": "sad-talk",
+        "id": "koti"
+     },
+    {
+        "text": "Chodzi przecież o TWOJEGO WYMARZONEGO CHŁOPAKA",
+        "img": "wink-koti",
+        "id": "koti"
+     },
+     {
+        "text": "To co, robimy teścik?",
+        "img": "proud-koti",
+        "id": "koti",
+        "buttons": [
+            {"content": "Test", "action": "goTest"},
+            {"content": "Potem", "action": "notNowCreator"}
+
+        ]
+     }
+
+]

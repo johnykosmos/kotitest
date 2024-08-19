@@ -1,0 +1,12 @@
+[
+     {
+        "text": "To co, robimy teścik?",
+        "img": "proud-koti",
+        "id": "koti",
+        "buttons": [
+            {"content": "Test", "action": "goTest"},
+            {"content": "Potem", "action": "notNowCreator"}
+        ]
+     }
+
+]
