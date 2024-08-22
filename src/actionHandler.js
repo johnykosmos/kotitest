@@ -1,4 +1,6 @@
-import {currentDialogue, dialogueIndex, setDialogueIndex, showNextDialogue, setCurrentDialogue, startCharacter, endDialogue} from "./dialogueLogic.js"
+import {currentDialogue, dialogueIndex, setDialogueIndex, showNextDialogue, setCurrentDialogue, startCharacter, endDialogue, killDialogue} from "./dialogueLogic.js"
+import {playPong} from "./pong.js"
+
 let previousIndex;
 
 export const actionHandler = {
@@ -22,6 +24,10 @@ export const actionHandler = {
     },
     "goToTennis" : function(){
         window.location.href = "tennis.html";
+    },
+    "startPong":function(){
+        playPong();
+        killDialogue(currentDialogue);
     },
     "goToCreator" : function(){
         window.location.href = "creator.html";

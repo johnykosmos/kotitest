@@ -94,6 +94,45 @@ button{
     gap: 2vh;
 }
 
+.pong-container{
+    height: 75vh;
+    width: 140vh;
+    background-image: url("./img/other/kort.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 5vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position:relative;
+}
+.players{
+    position: absolute;
+}
+
+.points-counter{
+    height: 12vh;
+    width: 30vh;
+    font-size: 9vh;
+    text-align: center;
+    color: #E76480;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1vh solid #E76480;
+    border-radius: 4vh; 
+    visibility: hidden; 
+}
+
+#player{
+    left: 0;
+    visibility: hidden;
+}
+
+#iga{
+    right: 0;
+    visibility: hidden;
+}
+
+
 button:hover{
     background-color:rgba(115, 115, 115, 0.7);
 }

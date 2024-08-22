@@ -67,6 +67,12 @@ export function endDialogue(dialogues){
     startCharDialogue(dialogues);
 }
 
+export function killDialogue(dialogues){
+    dialogueIndex = 0;
+    dialogue.style.visibility = "hidden";
+    document.removeEventListener("keydown", dialogueEvent);
+}
+
 export function showNextDialogue(dialogues){
     if(dialogueIndex < dialogues.length){
         const dialogue = dialogues[dialogueIndex];

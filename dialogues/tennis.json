@@ -1,0 +1,66 @@
+[
+     {
+        "text": "widzisz przed sobą kort tenisowy",
+        "img": "",
+        "id": ""
+     },
+    {
+        "text": "wygląda jak niedokończona praca na podstawówkową plastykę",
+        "img": "",
+        "id": ""
+     },
+    {
+        "text": "To co tutaj widzisz to pozostałości świetnego pomysłu, który spotkał się ze zbyt małym czasem na skończenie go.",
+        "img": "sad-talk",
+        "id": "koti"
+        },
+    {
+        "text": "Piotrkowi było bardzo przykro z tego powodu więc na szybko skleił wspólnie z ChatemGPT to... to coś.",
+        "img": "sad-talk",
+        "id": "koti"
+        },
+    {
+        "text": "masz wrażenie, że pokój wypełniła piekielna prezencja",
+        "img": "",
+        "id": ""
+        },
+    {
+        "text": "...",
+        "img": "confused-koti2",
+        "id": "koti"
+        },
+    {
+        "text": "idzie po nas.",
+        "img": "confused-koti2",
+        "id": "koti"
+        },
+    {
+        "text": "No cześć, słyszałam, że któraś z was chce ze mną zagrać!",
+        "img": "iga-character",
+        "id": "iga swiontek"
+        },
+    {
+        "text": "Ehh, już niestety jej nie uciekniemy; jak tylko zaczniesz uciekać to ona złapie za notesik i jesteśmy ugotowane... Ale mam plan.",
+        "img": "sad-talk",
+        "id": "koti"
+        },
+    {
+        "text": "Zagramy w tę drewnianie wykonaną grę, a ona da nam spokój gdy tylko któraś z nas zdobędzie 5 punktów. Zaufaj mi, już to z nią przerabiałam. Kiedyś z moim chłopakiem...",
+        "img": "proud-koti",
+        "id": "koti"
+        },
+    {
+        "text": "a nieważne!",
+        "img": "wink-koti",
+        "id": "koti"
+        },
+    {
+        "text": "Strzałki góra i dół odpowiadają moim kocim ruchom, wiesz na czym polega tenis, więc nie będę ci głupio tłumaczyć. Zaczynamy?",
+        "img": "proud-koti",
+        "id": "koti",
+        "buttons": [
+            {"content": "Zaczynajmy", "action": "startPong"},
+            {"content": "Uciekaj"}
+        ]
+        }
+]

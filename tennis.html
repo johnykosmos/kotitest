@@ -8,9 +8,11 @@
     <title>...</title>
 </head>
 <body>
-    <div id="pong-container" style="padding-top: 10vh; display: flex; 
-              justify-content: center; align-items: center; cursor: pointer;">
-        <img style="height: 75vh; width: 120vh;" src="./img/other/kort.jpeg"  >
+    <div class="points-counter" id="points-counter">0:0</div>
+    <div class="pong-container" id="kort" style="cursor: pointer;">
+        <div class="players" id="player"><img src="./img/characters/koti-tenisowy.gif" style="height: 25vh; width: 25vh; "></div>
+        <div class="players" id="ball"><img  src="./img/other/ball.png"style="height: 4vh; width: 4vh"></div>
+        <div class="players"  id="iga"><img  src="./img/characters/iga-gra.png"style="height: 25vh; width: 18vh"></div>
     </div>
     <div class="dialogue-screen" id="dialogue-screen">
         <p class="dialogue-title" id="dialogue-title"></p>
@@ -21,6 +23,6 @@
         <div class="next-dialogue-info" id="next-dialogue-info"> Press ENTER for next dialogue </div>
         <div class="choice-buttons" id="choice-buttons"> </div>
     </div>
-    <script type="module" src="./src/pong.js"></script>
+    <script type="module" src="./src/tennis.js"></script>
 </body>
 </html>
