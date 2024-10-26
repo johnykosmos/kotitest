@@ -25,7 +25,7 @@ export function setDialogueIndex(index){
 }
 
 export async function setCurrentDialogue(filename){
-    const response = await fetch(`../dialogues/${filename}.json`);
+    const response = await fetch(`https://raw.githubusercontent.com/johnykosmos/kotitest/main/${filename}`);
     const data = await response.json();
     currentDialogue = data;
     dialogueIndex = 0;
